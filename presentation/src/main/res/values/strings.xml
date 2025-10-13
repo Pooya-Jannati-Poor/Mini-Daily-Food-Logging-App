@@ -1,0 +1,18 @@
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="today_total_calories">Today total calories: %1$d</string>
+    <string name="food_name">Food name: %1$s</string>
+    <string name="food_calorie">Calorie: %1$d kcal</string>
+    <string name="food_calories">Today total calories: %1$s</string>
+    <string name="open_food_log_bottom_sheet">Open Food Log Bottom Sheet</string>
+    <string name="today_food_logs">Today food logs</string>
+    <string name="add_food_log">Add Food Log</string>
+    <string name="edit_food_log">Edit Food Log</string>
+    <string name="food_name_hint">Food Name</string>
+    <string name="food_unit_hint">Food Unit</string>
+    <string name="food_amount_hint">Food Amount</string>
+    <string name="save_food_log">Save Food Log</string>
+    <string name="empty_food_log_list">There is no data for today. Use the button at the bottom of the page to add.</string>
+    <string name="delete_food_log">delete food log</string>
+</resources>
