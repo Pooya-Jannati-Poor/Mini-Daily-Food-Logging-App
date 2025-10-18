@@ -48,13 +48,13 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    androidTestImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2")
+    androidTestImplementation(libs.kotlinx.coroutines.test)
 
     // Room db
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     ksp(libs.room.compiler)
-    androidTestImplementation("androidx.room:room-testing:2.8.2")
+    androidTestImplementation(libs.androidx.room.testing)
 
     //Hilt
     implementation(libs.hilt.android)
