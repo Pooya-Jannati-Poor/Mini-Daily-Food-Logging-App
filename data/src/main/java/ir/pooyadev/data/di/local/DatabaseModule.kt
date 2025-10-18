@@ -28,7 +28,7 @@ object DatabaseModule {
     }
 
     @Provides
-    fun provideBasketDao(database: AppDatabase): FoodLoggingDao {
+    fun provideFoodLoggingDao(database: AppDatabase): FoodLoggingDao {
         return database.foodLoggingDao()
     }
 
